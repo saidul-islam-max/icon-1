@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items:center;
+    background-color: black;
+    color:white;
+}
+
+
+.warper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin:0 5px;
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow:0 px 10px 10px rgba(0,0,0,0,1);
+    transition: all 0.3s ease-out;
+
+}
+.warper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+  
+    transition: all 0.3s ease-out;
+
+}
+.warper .button .icon i{
+    font-size:25px;
+    line-height: 60px;
+    color: black;
+}
+.warper .button:hover{
+    width:200px;
+    
+}
+.warper .button span{
+    font-size:20px;
+    font-weight:500;
+    line-height: 60px;
+    margin-left: 10px;
+    
+}
+.warper .button:nth-child(1) span{
+    color:black;
+}
+.warper .button:nth-child(2) span{
+    color:black;
+  
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
